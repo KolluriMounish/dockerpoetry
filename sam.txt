@@ -1,0 +1,8 @@
+[tool.fastapi]
+title = "My FastAPI App"
+description = "A sample FastAPI app using Poetry"
+version = "0.1.0"
+contact = { name = "Your Name", email = "you@example.com" }
+license = { name = "MIT" }
+servers = [    { url = "http://localhost:8000", description = "Local development server" }]
+app_config = ".env"
